@@ -1,0 +1,218 @@
+/* GERAL */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    text-align: center;
+}
+
+button {
+    margin-top: 85px;
+    background: none;
+    border-radius: 4px;
+    border: 2px solid #FFF;
+    font-size: 14px;
+    font-weight: bolder;
+    width: 200px;
+    padding: 11px 0;
+    color: #FFF;
+    cursor: pointer;
+    outline: none;
+}
+
+/* MENU */
+
+.menu {
+    width: 100%;
+    height: 60px;
+    background: #0e2028de; 
+    display: block;
+}
+
+.logo img {
+    float: left;
+    width: 180px;
+    padding: 10px;
+}
+
+.menu nav {
+    padding: 20px 60px 0 0;
+}
+
+.menu nav a{
+    float: right;
+    margin-left: 100px;
+    color: #FFF;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+/* INTRODUÇÃO */
+
+.intro {
+    width: 100%;
+    height:600px;
+    background: url(../sea.gif);
+    background-size: cover;
+}
+
+.intro h1 {
+    padding-top: 230px;
+    font-size: 64px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: #fffffa66;
+}
+
+.intro a {
+    font-family: 'Raleway', sans-serif;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #ECECFAE0;
+    color: transparent;
+    text-decoration: none;
+    font-size: 42px;
+}
+
+.intro a:hover {
+    color: #ECECFAE0;
+    -webkit-text-stroke-color: transparent;
+}
+
+/* SOBRE */
+
+#about {
+    height: 550px;
+    background: #0e2028;
+    display: block;
+    padding: 50px 0;
+}
+
+#about img {
+    float: left;
+    margin-top: 240px;
+    width: 600px;
+}
+
+#about p {
+    width: 600px;
+    color: #ECECFAE0;
+    text-align: justify;
+    float: right;
+    padding: 20px 90px 0 0;
+}
+
+/* SERVIÇOS */
+
+#explore {
+    height: 660px;
+    background: #0e2028;   
+}
+
+#explore h1 {
+    font-family: 'Raleway', sans-serif;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #ECECFAE0;
+    color: transparent;
+    text-decoration: none;
+    font-size: 54px;
+    padding: 5px 0;
+}
+
+#explore button {
+    top: -200px;
+    position: relative;
+}
+
+/* SLIDE */
+
+#slider {
+	overflow: hidden;
+}
+
+@keyframes slider {
+	0% { left: 0; }
+	30% { left: 0; }
+	33% { left: -100%; }
+	63% { left: -100%; }
+	66% { left: -200%; }
+	95% { left: -200%; }
+	100% { left: 0; }
+}
+#slider figure {
+    width: 400%;
+	position: relative;
+    animation: 9s slider infinite;
+}
+
+#slider figure img {
+    width: 1100px;
+    height: 540px;
+    margin: 0 125px;
+    border-radius: 10px;
+	float: left;
+}
+
+
+
+/* CONTATO */
+
+#contat-us {
+    height: 220px;
+    background: url(../img/bg3.jpg) no-repeat center;
+    background-size: cover;  
+    display: block;  
+}
+
+#contat-us h1 {
+    float: left;
+    padding: 85px 0 0 180px;
+    color: white;
+    font-size: 32px;
+}
+
+/* CITAÇÃO */
+
+.cite {
+    height: 220px;
+    background: url(../img/bg2.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.cite blockquote {
+    padding-top: 85px;
+    margin-bottom: 20px;
+    color: #FFF;
+}
+
+.cite cite {
+    color: #1ed5c3;
+    font-weight: bold;
+}
+
+/* RODAPE */
+
+.rodape{
+    height: 220px;
+    background: url(../img/bg1.jpg) no-repeat center;
+    background-size: cover;
+    font-size: 14px;
+}
+
+.rodape p {
+    padding: 180px 0 20px 0;
+    color: #0e2028;
+}
+
+.rodape p span {
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.rodape p span a {
+    text-decoration: none;
+    color: #0e2028; 
+}
